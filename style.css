@@ -1,0 +1,156 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.head{
+    background-image: url('image/background.png');
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.head img{
+    padding: 150px 10px;
+}
+
+.contents{
+    background-color: #674636;
+    height: 70vh;
+    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.cont1{
+    height: 550px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 40px;
+    border-radius: 2rem;
+    background-color: #FFDBB5;
+}
+
+.cont1 img{
+    border-radius: 1.5rem;
+}
+
+.cont1 h2{
+    font-family: "Dynamo W04 Bold Condensed";
+    font-size: 40px;
+}
+
+.cont1 p{
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: "Sans";
+    font-size: 16px;
+}
+
+.contents img{
+    height: 300px;
+    width: 500px;
+}
+
+.cont1:hover{
+    background-color: #FFEAC5;
+}
+
+.lastpart{
+    background-image: url('image/footer.avif');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.lastpart h1{
+    font-family: "Dynamo W04 Bold Condensed";
+    font-size: 3rem;
+    color: #aab396;
+    font-size: 10rem;
+    margin-top: 6rem;
+    margin-left: 6.5rem;
+}
+
+.lastpart img{
+    margin-left: 2rem;
+}
+
+.lastpart .col1{
+    float: left;
+    width: 50%;
+}
+
+.lastpart .col2{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: end;
+    margin-right: 7rem;
+    padding-top: 8rem;
+    color: #aab396;
+    font-family: "Dynamo W04 Bold Condensed";
+    font-size: 3vh;
+}
+
+.lastpart .col2 p{
+    margin-bottom: 40px;
+}
+
+.last{
+    text-align: center;
+    margin-top: -40px;
+    font-size: 20px;
+    color: #aab396;
+    font-family: "Dynamo W04 Bold Condensed";
+}
+
+@media screen and (max-width: 780px) {
+ 
+    .head img{
+        height: 200px;
+        width: 650px;
+        padding-top: 350px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contents{
+        background-color: #674636;
+        height: 55%;
+        padding: 5%;
+        display: grid;
+        justify-content: space-evenly;
+    }
+
+    .cont1{
+        margin-top: 20px;
+    }
+
+    .lastpart h1{
+        font-size: 10vh;
+        margin-left: 3rem;
+    }
+
+    .lastpart img{
+        margin-left: 0.5rem;
+        margin-top: -60px;
+        height: 200px;
+        width: 450px;
+    }
+
+    .lastpart .col2{
+      
+        font-size: 2vh;
+    }
+  }
